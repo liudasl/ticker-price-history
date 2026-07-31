@@ -1,0 +1,17 @@
+{
+  "id": "SXR8",
+  "name": "iShares Core S&P 500 UCITS ETF (Acc)",
+  "isin": "IE00B5BMR087",
+  "currency": "EUR",
+  "files": {
+    "monthly": "monthly.csv"
+  },
+  "columns": [
+    "date",
+    "adjusted_close"
+  ],
+  "adjusted_close": "total-return adjusted close (splits + distributions reinvested)",
+  "precision": 4,
+  "order": "ascending by date",
+  "date_convention": "month-start label — 2024-02-01 = February's close"
+}

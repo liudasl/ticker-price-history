@@ -1,0 +1,17 @@
+{
+  "id": "EXUS",
+  "name": "Xtrackers MSCI World ex USA UCITS ETF 1C",
+  "isin": "IE0006WW1TQ4",
+  "currency": "EUR",
+  "files": {
+    "monthly": "monthly.csv"
+  },
+  "columns": [
+    "date",
+    "adjusted_close"
+  ],
+  "adjusted_close": "total-return adjusted close (splits + distributions reinvested)",
+  "precision": 4,
+  "order": "ascending by date",
+  "date_convention": "month-start label — 2024-02-01 = February's close"
+}
