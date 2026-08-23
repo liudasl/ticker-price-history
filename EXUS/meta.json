@@ -1,5 +1,6 @@
 {
   "id": "EXUS",
+  "kind": "instrument",
   "name": "Xtrackers MSCI World ex USA UCITS ETF 1C",
   "isin": "IE0006WW1TQ4",
   "currency": "EUR",
@@ -8,8 +9,10 @@
   },
   "columns": [
     "date",
+    "close",
     "adjusted_close"
   ],
+  "close": "raw market close as quoted (split-adjusted, distributions not reinvested)",
   "adjusted_close": "total-return adjusted close (splits + distributions reinvested)",
   "precision": 4,
   "order": "ascending by date",

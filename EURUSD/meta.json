@@ -1,0 +1,18 @@
+{
+  "id": "EURUSD",
+  "kind": "fx",
+  "name": "Euro / US Dollar",
+  "base": "EUR",
+  "quote": "USD",
+  "files": {
+    "monthly": "monthly.csv"
+  },
+  "columns": [
+    "date",
+    "rate"
+  ],
+  "rate": "USD per 1 EUR at the period's close — divide a USD amount by it to get EUR",
+  "precision": 6,
+  "order": "ascending by date",
+  "date_convention": "month-start label — 2024-02-01 = February's close"
+}

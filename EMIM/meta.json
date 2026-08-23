@@ -1,6 +1,7 @@
 {
   "id": "EMIM",
-  "name": "iShares Core MSCI EM IMI UCITS ETF",
+  "kind": "instrument",
+  "name": "iShares Core MSCI Emerging Markets IMI UCITS ETF (Acc)",
   "isin": "IE00BKM4GZ66",
   "currency": "EUR",
   "files": {
@@ -8,8 +9,10 @@
   },
   "columns": [
     "date",
+    "close",
     "adjusted_close"
   ],
+  "close": "raw market close as quoted (split-adjusted, distributions not reinvested)",
   "adjusted_close": "total-return adjusted close (splits + distributions reinvested)",
   "precision": 4,
   "order": "ascending by date",
